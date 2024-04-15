@@ -1,0 +1,12 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Hello Vipun JSP</title>
+</head>
+<body>
+    <h1>Result : </h1>
+
+</body>
+</html>
