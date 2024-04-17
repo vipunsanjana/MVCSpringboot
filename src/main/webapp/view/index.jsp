@@ -11,14 +11,15 @@
     </br>
     </br>
 
-    <form action="add">
-    <p>1st number : </p><input type="number" name="num1" placeholder="Enter Number 1 :" /></br>
-    <p>2st number : </p><input type="number" name="num2" placeholder="Enter Number 2 :" /></br>
+    <form action="addUser">
+    <p>Your Name : </p><input type="text" name="uname" placeholder="Enter Your Name :" /></br>
+    <p>Your ID : </p><input type="number" name="uid" placeholder="Enter Your ID :" /></br>
 
     </br></br>
 
-    <input type="submit" value="calculate" />
+    <input type="submit" value="Submit" />
 
     </form>
+
 </body>
 </html>

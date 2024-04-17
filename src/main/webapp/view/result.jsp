@@ -9,7 +9,7 @@
     <title>Hello Vipun JSP</title>
 </head>
 <body>
-    <h1>Result : <%= request.getAttribute("result") %> </h1>
+    <h1>Result : <%= request.getAttribute("user") %> </h1>
 
 </body>
 </html>
