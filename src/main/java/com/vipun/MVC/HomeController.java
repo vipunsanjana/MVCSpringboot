@@ -13,7 +13,7 @@ public class HomeController {
     @RequestMapping("/")
     public String loadHome() {
         System.out.println("load home page....");
-        return "index.jsp";
+        return "index";
     }
 
     @RequestMapping("add")
@@ -25,7 +25,7 @@ public class HomeController {
         int result = num1 + num2;
 
         modelAndView.addObject("result",result);
-        modelAndView.setViewName("result.jsp");
+        modelAndView.setViewName("result");
 
         return modelAndView;
     }
