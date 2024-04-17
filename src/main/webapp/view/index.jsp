@@ -12,7 +12,7 @@
     </br>
 
     <form action="addUser">
-    <p>Your Name : </p><input type="text" name="uname" placeholder="Enter Your Name :" /></br>
+    <p>Your Name : </p><input type="text" name="name" placeholder="Enter Your Name :" /></br>
     <p>Your ID : </p><input type="number" name="uid" placeholder="Enter Your ID :" /></br>
 
     </br></br>

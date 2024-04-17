@@ -7,6 +7,7 @@ import model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -33,15 +34,16 @@ public class HomeController {
 
 
     @RequestMapping("addUser")
-    public String addUser(@RequestParam("uname") String uname, @RequestParam("uid") int uid, Model model){
-
-        User user = new User();
-        user.setUid(uid);
-        user.setName(uname);
-
-        model.addAttribute("user",user);
+    public String addUser(@ModelAttribute("user") User user, Model model){
 
         return "result";
+    }
+
+
+    @ModelAttribute
+    public void showYear(Model model){
+
+        model.addAttribute("year","2024");
     }
 
 }

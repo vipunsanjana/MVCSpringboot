@@ -9,6 +9,7 @@
     <title>Hello Vipun JSP</title>
 </head>
 <body>
+<h1>HI : <%= request.getAttribute("year") %> </h1>
     <h1>Result : <%= request.getAttribute("user") %> </h1>
 
 </body>
